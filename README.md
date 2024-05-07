@@ -1,2 +1,2 @@
 # codemaster
-main file can be acfcess by home.html
+main file can be access by home.html
