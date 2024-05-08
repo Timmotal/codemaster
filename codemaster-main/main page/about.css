@@ -1,0 +1,67 @@
+/* Reset default margin and padding */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the body */
+body {
+    font-family: "Krona One", sans-serif;
+    background-image: linear-gradient(#121217, #626278);
+    color: #333; /* Dark gray text color */
+}
+
+/* Style the header */
+header {
+    background: transparent; /* Dark gray background for header */
+    color: #fff; /* White text color for header */
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Style the main heading */
+header h1 {
+    font-size: 36px;
+}
+
+/* Style the about section */
+.about {
+    padding: 50px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Style each about content block */
+.about-content {
+    max-width: 600px;
+    background-color: #242428; /* White background for content */
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for content blocks */
+    text-align: center;
+    color: #fff;
+}
+
+/* Style about section headings */
+.about-content h2 {
+    color: #007bff; /* Blue color for headings */
+    margin-bottom: 15px;
+}
+
+/* Style about section paragraphs and lists */
+.about-content p, .about-content ul {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+footer{
+    text-align: center;
+    background-color: #121217;
+    color: #fff; /* White text color for header and footer */
+    text-align: center;
+    padding: 2px;
+    font-family: "Krona One", sans-serif;
+}

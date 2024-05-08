@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Krona One", sans-serif;
+}
+.left-rectangle{
+    text-align: center;
+    background: linear-gradient(180deg, #121216, #65657c);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    width: 68px;
+    height: 180vh;
+}
+#logo{
+    height: 50px;
+    margin-top: 20px;
+}
+.icons{
+    margin-top: 6rem;
+    padding-top: 10px;
+}
+.icons>img{
+    margin-top: 70px;
+  }
+  .icons>a>img{
+      margin-top: 70px;
+  }
+.icons>img{
+    height: 40px;
+    margin-top: 70px;
+}
+.page1{
+    height: 180vh;
+    /* text-align: center; */
+    display: flex;
+    /* justify-content: center; */
+    background-image: linear-gradient(#16171B,#3F4251);
+}
+
+.upper-content{
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 180px;
+    /* here */
+    gap: 10px;
+}
+.heading>h1{
+    letter-spacing: 5px;
+    margin-left: 30px;
+    color: white;
+    font-size: 60px;
+}
+.heading>img{
+    height: 40px;
+}
+.heading{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.sections{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+.bak>p{
+    color: white;
+    margin-top: 15px;
+    font-size: large;
+}
+.block1{
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #242428;
+}
+.block2{
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #5f5f75;
+}
+.block3{
+    margin-top: 40px;
+    width: 150px;
+    height: 50px;
+    background-color: #242428;
+}
+.lower-content{
+    margin-top: 80px;
+    height: 965px;
+    width: 70rem;
+    /* background-color: chartreuse; */
+    border: 2px solid white;
+}
+.user-rank{
+    color: white;
+    display: flex;
+    /* justify-content: space-; */
+    align-items: center;
+    height: 80px;
+    width: 69.7rem;
+    gap: 80px;
+    background-color: #292e37;
+}
+.user-rank>img{
+    height: 70px;
+    margin-left: 20px;
+}
+.user-rank>h5{
+    font-weight: 100;
+}
+
+.align>img{
+    height: 40px;
+}
+.align{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.scores{
+    margin-left: 300px;
+    /* justify-content: space-evenly; */
+    display: flex;
+    align-items: center;
+}
+.scores>h5{
+    margin-left: 250px;
+    font-weight: 100;
+    font-size: 20px;
+}
+#Rank{
+    margin-left: 50px;
+}
+#runnerup{
+    margin-left: 23px;
+}
+.icons a{
+    padding: 10px;
+}

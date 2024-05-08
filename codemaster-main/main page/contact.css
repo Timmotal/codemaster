@@ -1,0 +1,84 @@
+
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set background color and font for the body */
+body {
+    font-family: "Krona One", sans-serif;
+    background:  #3c3c45;
+    color: #333; /* Dark gray text color */
+}
+
+/* Style the contact section */
+.contact {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Style the heading */
+.heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #fdfeff; /* Blue color for heading */
+}
+
+/* Style the span inside the heading */
+.heading span {
+    color: #AEB7D3; /* Green color for span text */
+}
+
+/* Style the form */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #242428; /* White background for form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for form */
+    color: #0056b3;
+}
+
+/* Style form input boxes */
+.input-box {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 48%; /* Set width for inputs */
+    padding: 10px;
+    border: 1px solid #0f0c0c; /* Light gray border */
+    border-radius: 5px;
+}
+
+/* Style the textarea */
+textarea {
+    width: 96%;
+    padding: 10px;
+    border: 1px solid #0f0c0c; /* Light gray border */
+    border-radius: 5px;
+    resize: vertical; /* Allow vertical resizing */
+    margin-bottom: 20px;
+}
+
+/* Style the submit button */
+.btn {
+    background-color: #AEB7D3; /* Blue button background color */
+    color: #fff; /* White button text color */
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+input,textarea{
+    background-color: #353539;
+    color: #fff;
+}
